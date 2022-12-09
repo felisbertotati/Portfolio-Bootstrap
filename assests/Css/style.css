@@ -18,7 +18,7 @@ section {
 }
 
 .jumbotron {
-  background: rgb(249, 212, 141, 0.8);
+  background: rgba(249, 212, 141, 0.8);
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(90vh - 25px);
@@ -40,6 +40,20 @@ header.jumbotron .My-photo {
   max-width: 500px;
   border: 15px solid white;
 }
+.mainbutton {
+  margin-top: 40px;
+  color: rgb(208, 143, 15);
+  border: 2px solid rgb(208, 143, 15);
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+  border-radius: 30px;
+  padding: 10px 50px;
+  font-size: 20px;
+}
+.mainbutton:hover {
+  background-color: rgb(208, 143, 15, 0.5);
+  color: white;
+  border: rgb(208, 143, 15);
+}
 /* .aboutme {
   background-color: rgb(249, 212, 141, 0.8);
 } */
@@ -60,17 +74,71 @@ header.jumbotron .My-photo {
   margin-left: 200px;
 }
 .Worksection {
-  margin-left: 250px;
+  /* margin-left: 250px; */
   font-size: 50px;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0, 0.7);
+  text-align: center;
 }
 .Frontend {
-  margin-left: 250px;
+  margin-left: 200px;
   margin-bottom: 50px;
 }
+section.Card-main {
+  background-color: rgb(249, 212, 141, 0.6) !important;
+}
 .cardone {
+  /* background-color: #2a607c; */
+  color: #2a607c;
+}
+.card-title-one,
+.card-title-four {
+  font-size: 30px;
+}
+.button {
+  color: #2a607c;
+  border: 2px solid #2a607c;
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+}
+.button:hover {
   background-color: #2a607c;
   color: white;
+  border: #2a607c;
 }
-.card-title-one {
-  font-size: 30px;
+
+.card-title-two {
+  font-size: 25px;
+  color: rgb(208, 143, 15);
+}
+.buttontwo {
+  color: rgb(208, 143, 15);
+  border: 2px solid rgb(208, 143, 15);
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+}
+.buttontwo:hover {
+  background-color: rgb(208, 143, 15);
+  color: white;
+  border: rgb(208, 143, 15);
+}
+.card-title-three {
+  font-size: 25px;
+}
+.uxdesign {
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.cardfour {
+  color: #bd5151;
+}
+.buttonfour {
+  color: #bd5151;
+  border: 2px solid #bd5151;
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+}
+.buttonfour:hover {
+  background-color: #bd5151;
+  color: white;
+  border: #bd5151;
 }
