@@ -136,7 +136,7 @@ section.Card-main {
 .buttonfour {
   color: #bd5151;
   border: 2px solid #bd5151;
-  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
 }
 .buttonfour:hover {
   background-color: #bd5151;
