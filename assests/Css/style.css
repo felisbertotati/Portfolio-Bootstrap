@@ -120,7 +120,8 @@ section.Card-main {
   color: white;
   border: rgb(208, 143, 15);
 }
-.card-title-three {
+.card-title-three,
+.card-title-five {
   font-size: 25px;
 }
 .uxdesign {
@@ -141,4 +142,17 @@ section.Card-main {
   background-color: #bd5151;
   color: white;
   border: #bd5151;
+}
+.cardfive {
+  color: #03164b;
+}
+.buttonfive {
+  color: #03164b;
+  border: 2px solid #03164b;
+  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+}
+.buttonfive:hover {
+  background-color: #03164b;
+  color: white;
+  border: #03164b;
 }
