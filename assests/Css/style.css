@@ -16,9 +16,15 @@ section {
   font-weight: 200;
   letter-spacing: 2px;
 }
+.mb-5 {
+  color: white;
+}
+.lead {
+  color: white;
+}
 
 .jumbotron {
-  background: rgba(249, 212, 141, 0.8);
+  background: rgb(0, 0, 0, 0.7);
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(90vh - 25px);
@@ -42,18 +48,18 @@ header.jumbotron .My-photo {
 }
 .mainbutton {
   margin-top: 40px;
-  color: rgb(208, 143, 15);
-  border: 2px solid rgb(208, 143, 15);
+  color: white;
+  border: 2px solid white;
   /* box-shadow: 4px 2px 2px rgb(0, 0, 0, 0.7); */
   border-radius: 30px;
   padding: 10px 50px;
   font-size: 20px;
-  background-color: rgb(245, 242, 200);
+  background-color: transparent;
 }
 .mainbutton:hover {
-  background-color: rgb(208, 143, 15, 0.5);
+  background-color: black;
   color: white;
-  border: rgb(208, 143, 15);
+  border: black;
 }
 /* .aboutme {
   background-color: rgb(249, 212, 141, 0.8);
@@ -99,7 +105,7 @@ section.Card-main {
 .button {
   color: #2a607c;
   border: 2px solid #2a607c;
-  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+  /* box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7); */
 }
 .button:hover {
   background-color: #2a607c;
@@ -114,7 +120,7 @@ section.Card-main {
 .buttontwo {
   color: rgb(208, 143, 15);
   border: 2px solid rgb(208, 143, 15);
-  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+  /* box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7); */
 }
 .buttontwo:hover {
   background-color: rgb(208, 143, 15);
@@ -137,7 +143,7 @@ section.Card-main {
 .buttonfour {
   color: #bd5151;
   border: 2px solid #bd5151;
-  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+  /* box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7); */
 }
 .buttonfour:hover {
   background-color: #bd5151;
@@ -150,7 +156,7 @@ section.Card-main {
 .buttonfive {
   color: #03164b;
   border: 2px solid #03164b;
-  box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7);
+  /* box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7); */
 }
 .buttonfive:hover {
   background-color: #03164b;
