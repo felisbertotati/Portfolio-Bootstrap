@@ -15,6 +15,13 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./assests/css/style.css" />
 
     <title>Portfolio</title>
@@ -69,7 +76,7 @@
               <h1 class="mb-5">Hi, It's me Tatiana</h1>
               <p class="lead">I'm a Front End Deloper and Ux Designer</p>
               <a
-                class="btn btn-main btn-outline-light shadow p-3 mb-5 rounded"
+                class="btn btn-main btn-outline-light shadow-lg p-3 mb-5 rounded"
                 href="#"
                 role="button"
                 >Contact me</a
@@ -89,10 +96,10 @@
       </div>
     </header>
     <main>
-      <section class="aboutme h-100 bg-light pt-5">
+      <section class="aboutme h-100 pt-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5 my-auto">
+            <div class="col-lg-6 my-auto">
               <div class="photo-container">
                 <img
                   src="./assests/images/cvaASs.jpg"
@@ -102,7 +109,7 @@
               </div>
             </div>
 
-            <div class="col-lg-5 my-auto">
+            <div class="col-lg-6 col-sm-8 mx-auto">
               <div class="About-me">
                 <h2 class="heading">About me</h2>
                 <p class="mylife text-justify">
@@ -119,15 +126,15 @@
           </div>
         </div>
       </section>
-      <h2 class="mainskills">My Skills</h2>
+      <h2 class="mainskills text-center heading">My Skills</h2>
       <section class="skills">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card" style="width: 18rem">
+          <div class="row mx-auto">
+            <div class="col-md-4 mb-3 mb-md-0 border-right">
+              <div class="card text-center">
                 <div class="card-body">
                   <h5 class="card-title">
-                    <i class="fa-solid fa-file-code"></i>
+                    <i class="fa-solid fa-file-code develop"></i>
                   </h5>
                   <h6 class="card-subtitle mb-2 text-muted">Developement</h6>
                   <p class="card-text">
@@ -137,11 +144,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card" style="width: 18rem">
+            <div class="col-md-4 mb-3 mb-md-0 border-right">
+              <div class="card text-center">
                 <div class="card-body">
                   <h5 class="card-title">
-                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <i class="fa-solid fa-mobile-screen-button phone"></i>
                   </h5>
                   <h6 class="card-subtitle mb-2 text-muted">Responsive</h6>
                   <p class="card-text">
@@ -152,10 +159,10 @@
               </div>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <div class="card" style="width: 18rem">
+              <div class="card text-center">
                 <div class="card-body">
                   <h5 class="card-title">
-                    <i class="fa-duotone fa-mug-hot"></i>
+                    <i class="fas fa-users coffee"></i>
                   </h5>
                   <h6 class="card-subtitle mb-2 text-muted">Ux / Ui Design</h6>
                   <p class="card-text">
@@ -174,8 +181,8 @@
         <h3 class="Frontend">Frontend Developer</h3>
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <div class="cardone border border-white" style="width: 18rem">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="cardone border border-white">
                 <img
                   src="./assests/images/horiseon.png"
                   class="card-img-top"
@@ -189,14 +196,16 @@
                     This is my first project in the bootcamp. It consists of
                     making the codebase acessible and follows the standards.
                   </p>
-                  <a href="#" class="btn btn-outline-light shadow button"
+                  <a
+                    href="#"
+                    class="btn btn-outline-light shadow p-3 mb-5 button"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card-two border border-white" style="width: 18rem">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card-two border border-white">
                 <img
                   src="./assests/images/myportfolio.png"
                   class="card-img-top"
@@ -209,18 +218,19 @@
                   </h5>
                   <p class="card-text">
                     This project was my second project. It consits of doing my
-                    own portfolio. So that we can show our skills and talents to
-                    employers.
+                    own portfolio. It show my skills and projects.
                   </p>
-                  <a href="#" class="btn btn-outline-light shadow buttontwo"
+                  <a
+                    href="#"
+                    class="btn btn-outline-light shadow p-3 mb-5 buttontwo"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
 
-            <div class="col-md-4">
-              <div class="cardthree border border-white" style="width: 18rem">
+            <div class="col-md-4 mx-sm-auto mb-3 mb-md-0">
+              <div class="cardthree border border-white">
                 <img
                   src="./assests/images/bootstrapphoto.png"
                   class="card-img-top"
@@ -234,7 +244,9 @@
                     This project I had to recreated my portfolio in bootstrap
                     and improve my css skills.
                   </p>
-                  <a href="#" class="btn btn-outline-light shadow buttontwo"
+                  <a
+                    href="#"
+                    class="btn btn-outline-light shadow p-3 mb-5 buttontwo"
                     >Check me</a
                   >
                 </div>
@@ -246,7 +258,7 @@
         <div class="container d-flex justify-content-center">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="cardfour border border-white" style="width: 18rem">
+              <div class="cardfour border border-white">
                 <img
                   src="./assests/images/brunchforyou.png"
                   class="card-img-top"
@@ -258,16 +270,18 @@
                     This Study Case I create based on my work experience, an app
                     easy to use, avoiding queues.
                   </p>
-                  <a href="#" class="btn btn-outline-light shadow buttonfour"
+                  <a
+                    href="#"
+                    class="btn btn-outline-light shadow p-3 mb-5 buttonfour"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="cardfive border border-white" style="width: 18rem">
+              <div class="cardfive border border-white">
                 <img
-                  src="./assests/images/cinemaapp.png"
+                  src="./assests/images/Artboard – 1.png"
                   class="card-img-top"
                   alt="Study case cinema"
                 />
@@ -277,7 +291,9 @@
                     This Study Case it is cinema app. Users can buy is cinema
                     ticket at home.
                   </p>
-                  <a href="#" class="btn btn-outline-light shadow buttonfive"
+                  <a
+                    href="#"
+                    class="btn btn-outline-light shadow p-3 mb-5 buttonfive"
                     >Check me</a
                   >
                 </div>
@@ -290,10 +306,10 @@
     <footer>
       <section class="contact-section">
         <div class="social d-flex justify-content-center">
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-brands fa-behance"></i></a>
-          <a href=""><i class="fa-regular fa-envelope"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin shadow lk"></i></a>
+          <a href=""><i class="fa-brands fa-github shadow git"></i></a>
+          <a href=""><i class="fa-brands fa-behance shadow bh"></i></a>
+          <a href=""><i class="fa-regular fa-envelope shadow env"></i></a>
         </div>
       </section>
     </footer>

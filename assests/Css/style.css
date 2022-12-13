@@ -6,6 +6,9 @@ body {
 section {
   padding: 100px 0;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
 
 .customNav {
   background-color: white !important;
@@ -64,12 +67,9 @@ section {
   color: white;
   border: 2px solid black;
 }
-/* .aboutme {
-  background-color: rgb(249, 212, 141, 0.8);
-} */
+
 .aboutme {
   margin-top: 100px;
-  background-color: #03164b;
 }
 .myimage {
   max-width: 400px;
@@ -81,8 +81,16 @@ section {
 .heading {
   font-size: 50px;
 }
-.About-me {
-  margin-left: 200px;
+
+.develop,
+.phone,
+.coffee {
+  color: rgb(208, 143, 15);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.card {
+  border: none;
 }
 .Worksection {
   /* margin-left: 250px; */
@@ -172,6 +180,7 @@ section.Card-main {
   margin-left: 10px;
   color: rgb(0, 0, 0, 0.7);
 }
+
 .social a:hover {
   color: rgb(208, 143, 15);
 }
@@ -184,5 +193,8 @@ section.Card-main {
 @media screen and (max-width: 600px) {
   .container {
     justify-content: center;
+  }
+  .mylife {
+    text-align: center;
   }
 }
