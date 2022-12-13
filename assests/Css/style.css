@@ -69,10 +69,11 @@ body {
   color: white;
   border: 2px solid black;
 }
-
+/*Added a margin top to spareted jumbotron to the next section*/
 .aboutme {
   margin-top: 100px;
 }
+/*Customize image*/
 .myimage {
   max-width: 400px;
   margin-left: 80px;
@@ -83,7 +84,7 @@ body {
 .heading {
   font-size: 50px;
 }
-
+/*Customize icons*/
 .develop,
 .phone,
 .coffee {
@@ -108,17 +109,19 @@ body {
 .card-img {
   padding-bottom: 10px;
 }
+/*Added background color in main section*/
 section.Card-main {
   background-color: rgb(249, 212, 141, 0.6) !important;
 }
+/*customize cards with colors*/
 .cardone {
   /* background-color: #2a607c; */
   color: #2a607c;
 }
+/*Customize buttons with color and changed border color. When hover changed for other color*/
 .button {
   color: #2a607c;
   border: 2px solid #2a607c;
-  /* box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7); */
 }
 .button:hover {
   background-color: #2a607c;
@@ -132,7 +135,6 @@ section.Card-main {
 .buttontwo {
   color: rgb(208, 143, 15);
   border: 2px solid rgb(208, 143, 15);
-  /* box-shadow: 2px 4px 4px rgb(0, 0, 0, 0.7); */
 }
 .buttontwo:hover {
   background-color: rgb(208, 143, 15);
@@ -178,6 +180,7 @@ section.Card-main {
   color: white;
   border: 2px solid #03164b;
 }
+/* Costumize icons social media, give them color and text shadow. When hover changed for yellow*/
 .social a {
   font-size: 40px;
   margin-left: 10px;
@@ -190,11 +193,17 @@ section.Card-main {
   text-shadow: 0 -1px 1px rgb(208, 143, 15);
 }
 
+/*To have a picture the way I like i have to add a heigh in jumbotron*/
 @media screen and (min-width: 992px) {
   .jumbotron {
     height: calc(100vh - 175px);
   }
+  /*Added border in skills to sparate from each other but it will only show in big screens*/
+  .border-lg {
+    border-right: 1px solid rgb(0, 0, 0, 0.1);
+  }
 }
+/*I use media query when the screen is smaller I have my content align in center*/
 @media screen and (max-width: 600px) {
   .container {
     justify-content: center;
