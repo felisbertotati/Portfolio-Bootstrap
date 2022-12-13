@@ -16,12 +16,12 @@ section {
   font-weight: 200;
   letter-spacing: 2px;
 }
-.nav-item {
+.nav-link {
   color: black;
   font-size: 20px;
   margin-left: 10px;
 }
-.nav-item:hover {
+.nav-link:hover {
   color: rgb(208, 143, 15);
 }
 .mb-5 {
