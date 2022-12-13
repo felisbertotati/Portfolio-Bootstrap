@@ -34,7 +34,7 @@ body {
 .lead {
   color: white;
 }
-
+/*Customize jumbotron*/
 .jumbotron {
   background: rgb(0, 0, 0, 0.7);
   position: relative;
@@ -53,6 +53,7 @@ body {
 .jumbotron .My-photo {
   border: 15px solid white;
 }
+/*Changed background in the main button and changed whe hover */
 .btn-main {
   margin-top: 40px;
   color: white;
@@ -104,16 +105,15 @@ body {
   margin-left: 200px;
   margin-bottom: 50px;
 }
+.card-img {
+  padding-bottom: 10px;
+}
 section.Card-main {
   background-color: rgb(249, 212, 141, 0.6) !important;
 }
 .cardone {
   /* background-color: #2a607c; */
   color: #2a607c;
-}
-.card-title-one,
-.card-title-four {
-  font-size: 30px;
 }
 .button {
   color: #2a607c;
@@ -127,7 +127,6 @@ section.Card-main {
 }
 
 .card-title-two {
-  font-size: 25px;
   color: rgb(208, 143, 15);
 }
 .buttontwo {
@@ -140,6 +139,9 @@ section.Card-main {
   color: white;
   border: 2px solid rgb(208, 143, 15);
 }
+.card-title-one,
+.card-title-four,
+.card-title-two,
 .card-title-three,
 .card-title-five {
   font-size: 25px;
