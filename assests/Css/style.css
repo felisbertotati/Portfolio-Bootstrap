@@ -16,6 +16,14 @@ section {
   font-weight: 200;
   letter-spacing: 2px;
 }
+.nav-item {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.nav-item:hover {
+  color: rgb(208, 143, 15);
+}
 .mb-5 {
   color: white;
 }
@@ -25,47 +33,43 @@ section {
 
 .jumbotron {
   background: rgb(0, 0, 0, 0.7);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: calc(90vh - 25px);
   position: relative;
   width: 100%;
   padding-top: 150px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
-header.jumbotron .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
+.jumbotron .header-content {
+  /* max-width: 500px; */
   text-align: center;
 }
-header.jumbotron .header-content h1 {
+.jumbotron .header-content h1 {
   font-size: 40px;
 }
-header.jumbotron .My-photo {
-  max-width: 500px;
+.jumbotron .My-photo {
   border: 15px solid white;
 }
-.mainbutton {
+.btn-main {
   margin-top: 40px;
   color: white;
   border: 2px solid white;
-  /* box-shadow: 4px 2px 2px rgb(0, 0, 0, 0.7); */
+  box-shadow: 4px 2px 2px rgb(0, 0, 0, 0.7);
   border-radius: 30px;
   padding: 10px 50px;
   font-size: 20px;
   background-color: transparent;
 }
-.mainbutton:hover {
+.btn-main:hover {
   background-color: black;
   color: white;
-  border: black;
+  border: 2px solid black;
 }
 /* .aboutme {
   background-color: rgb(249, 212, 141, 0.8);
 } */
 .aboutme {
   margin-top: 100px;
+  background-color: #03164b;
 }
 .myimage {
   max-width: 400px;
@@ -110,7 +114,7 @@ section.Card-main {
 .button:hover {
   background-color: #2a607c;
   color: white;
-  border: #2a607c;
+  border: 2px solid #2a607c;
 }
 
 .card-title-two {
@@ -125,7 +129,7 @@ section.Card-main {
 .buttontwo:hover {
   background-color: rgb(208, 143, 15);
   color: white;
-  border: rgb(208, 143, 15);
+  border: 2px solid rgb(208, 143, 15);
 }
 .card-title-three,
 .card-title-five {
@@ -148,7 +152,7 @@ section.Card-main {
 .buttonfour:hover {
   background-color: #bd5151;
   color: white;
-  border: #bd5151;
+  border: 2px solid #bd5151;
 }
 .cardfive {
   color: #03164b;
@@ -161,5 +165,16 @@ section.Card-main {
 .buttonfive:hover {
   background-color: #03164b;
   color: white;
-  border: #03164b;
+  border: 2px solid #03164b;
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron {
+    height: calc(100vh - 175px);
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    justify-content: center;
+  }
 }
