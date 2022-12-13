@@ -21,46 +21,55 @@
   </head>
   <body>
     <!--Nav section-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light customNav"
-      id="mainNav"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="./assests/images/logo900.png" alt="my logo"
-        /></a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
-            <a class="nav-item nav-link" href="#">About me</a>
-            <a class="nav-item nav-link" href="#">Work</a>
-            <a
-              class="nav-item nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Contact</a
-            >
-          </div>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!--jumbotron-->
-    <header class="jumbotron">
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-lg-7 my auto">
+    <header class="jumbotron my-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-lg-7 col-md-6 col-sm-12 mx-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5">Hi, It's me Tatiana</h1>
               <p class="lead">I'm a Front End Deloper and Ux Designer</p>
-              <a class="btn btn-outline-light mainbutton" href="#" role="button"
+              <a
+                class="btn btn-main btn-outline-light shadow p-3 mb-5 rounded"
+                href="#"
+                role="button"
                 >Contact me</a
               >
             </div>
           </div>
-          <div class="col-lg-5 my auto">
+          <div class="col-5 col-lg-4 col-md-6 col-sm-9 mb-sm-12 mx-sm-auto">
             <div class="My-photo">
               <img
                 src="./assests/images/myphoto.png"
@@ -73,10 +82,10 @@
       </div>
     </header>
     <main>
-      <section class="aboutme">
-        <div class="container h-100">
-          <div class="row h-100">
-            <div class="col-md-5 my-auto">
+      <section class="aboutme h-100 bg-light pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 my-auto">
               <div class="photo-container">
                 <img
                   src="./assests/images/cvaASs.jpg"
@@ -109,7 +118,7 @@
         <h3 class="Frontend">Frontend Developer</h3>
         <div class="container">
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-md-4">
               <div class="cardone border border-white" style="width: 18rem">
                 <img
                   src="./assests/images/horiseon.png"
@@ -124,13 +133,13 @@
                     This is my first project in the bootcamp. It consists of
                     making the codebase acessible and follows the standards.
                   </p>
-                  <a href="#" class="btn btn btn-outline-light button"
+                  <a href="#" class="btn btn-outline-light shadow button"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-md-4">
               <div class="card-two border border-white" style="width: 18rem">
                 <img
                   src="./assests/images/myportfolio.png"
@@ -147,14 +156,14 @@
                     own portfolio. So that we can show our skills and talents to
                     employers.
                   </p>
-                  <a href="#" class="btn bnt btn-outline-light buttontwo"
+                  <a href="#" class="btn btn-outline-light shadow buttontwo"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-md-4">
               <div class="cardthree border border-white" style="width: 18rem">
                 <img
                   src="./assests/images/bootstrapphoto.png"
@@ -169,7 +178,7 @@
                     This project I had to recreated my portfolio in bootstrap
                     and improve my css skills.
                   </p>
-                  <a href="#" class="btn bnt btn-outline-light buttontwo"
+                  <a href="#" class="btn btn-outline-light shadow buttontwo"
                     >Check me</a
                   >
                 </div>
@@ -178,9 +187,9 @@
           </div>
         </div>
         <h3 class="uxdesign">Ux Design</h3>
-        <div class="container">
+        <div class="container d-flex justify-content-center">
           <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="cardfour border border-white" style="width: 18rem">
                 <img
                   src="./assests/images/brunchforyou.png"
@@ -193,13 +202,13 @@
                     This Study Case I create based on my work experience, an app
                     easy to use, avoiding queues.
                   </p>
-                  <a href="#" class="btn bnt btn-outline-light buttonfour"
+                  <a href="#" class="btn btn-outline-light shadow buttonfour"
                     >Check me</a
                   >
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-6 col-md-6 col-sm-12">
               <div class="cardfive border border-white" style="width: 18rem">
                 <img
                   src="./assests/images/cinemaapp.png"
@@ -212,7 +221,7 @@
                     This Study Case it is cinema app. Users can buy is cinema
                     ticket at home.
                   </p>
-                  <a href="#" class="btn bnt btn-outline-light buttonfive"
+                  <a href="#" class="btn btn-outline-light shadow buttonfive"
                     >Check me</a
                   >
                 </div>
