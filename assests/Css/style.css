@@ -167,6 +167,14 @@ section.Card-main {
   color: white;
   border: 2px solid #03164b;
 }
+.social a {
+  font-size: 40px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0, 0.7);
+}
+.social a:hover {
+  color: rgb(208, 143, 15);
+}
 
 @media screen and (min-width: 992px) {
   .jumbotron {
