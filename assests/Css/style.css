@@ -9,7 +9,7 @@ section {
 body {
   font-family: "Inter", sans-serif;
 }
-
+/*Customize nav color, position fixed*/
 .customNav {
   background-color: white !important;
   position: fixed;
@@ -19,6 +19,7 @@ body {
   font-weight: 200;
   letter-spacing: 2px;
 }
+/*Nav-link black color but when hover it will be yellow*/
 .nav-link {
   color: black;
   font-size: 20px;
