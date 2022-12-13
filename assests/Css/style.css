@@ -70,7 +70,7 @@ body {
   border: 2px solid black;
 }
 /*Added a margin top to spareted jumbotron to the next section*/
-.aboutme {
+#aboutme {
   margin-top: 100px;
 }
 /*Customize image*/
@@ -95,8 +95,7 @@ body {
 .card {
   border: none;
 }
-.Worksection {
-  /* margin-left: 250px; */
+.worksection {
   font-size: 50px;
   margin-bottom: 30px;
   color: rgb(0, 0, 0, 0.7);
@@ -110,7 +109,7 @@ body {
   padding-bottom: 10px;
 }
 /*Added background color in main section*/
-section.Card-main {
+#Card-main {
   background-color: rgb(249, 212, 141, 0.6) !important;
 }
 /*customize cards with colors*/
@@ -182,10 +181,11 @@ section.Card-main {
 }
 /* Costumize icons social media, give them color and text shadow. When hover changed for yellow*/
 .social a {
-  font-size: 40px;
-  margin-left: 10px;
+  font-size: 50px;
+  margin-left: 30px;
   color: rgb(0, 0, 0, 0.7);
-  text-shadow: 0px -1px 1px rgb(0, 0, 0, 0.3);
+  text-shadow: 0px -1px 1px rgb(0, 0, 0, 0.3), 0px -2px 2px rgb(0, 0, 0, 0.2),
+    0px -3px 3px rgb(0, 0, 0, 0.1);
 }
 
 .social a:hover {
