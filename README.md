@@ -7,6 +7,8 @@ This project consists of recreated my portfolico using advance Css using bootstr
 
 ## Preview 
 
- ![alt text](https://github.com/felisbertotati/Portfolio-Bootstrap/blob/main/assests/Images/screenshot.png?raw=true)
+ ![alt text](https://github.com/felisbertotati/Portfolio-Bootstrap/blob/main/assets/images/screenshot.png?raw=true)
  
  ## Link
+    
+    https://felisbertotati.github.io/Portfolio-Bootstrap/
